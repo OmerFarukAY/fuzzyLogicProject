@@ -29,9 +29,9 @@ frenSiddeti['orta'] = fuzzy.trimf(frenSiddeti.universe, [40, 60, 80])
 frenSiddeti['sert'] = fuzzy.trimf(frenSiddeti.universe, [70, 100, 100])
 
 # Grafikler için
-#mesafe.view()
-#hiz.view()
-#fren.view()
+#aracinHizi.view()
+#takipMesafesi.view()
+#frenSiddeti.view()
 #plt.show()
 
 # Fuzzy kuralların tanımlandığı yer
@@ -42,12 +42,10 @@ rule2 = ctrl.Rule(takipMesafesi['cok_yakin'] & aracinHizi['normal'], frenSiddeti
 rule3 = ctrl.Rule(takipMesafesi['cok_yakin'] & aracinHizi['yavas'], frenSiddeti['orta'])
 
 
-
 # Takip Mesafesinin yakın olduğu durumlar
 rule4 = ctrl.Rule(takipMesafesi['yakin'] & aracinHizi['hizli'], frenSiddeti['sert'])
 rule5 = ctrl.Rule(takipMesafesi['yakin'] & aracinHizi['normal'], frenSiddeti['orta'])
 rule6 = ctrl.Rule(takipMesafesi['yakin'] & aracinHizi['yavas'], frenSiddeti['hafif'])
-
 
 
 # Takip Mesafesinin uzak olduğu durumlar
@@ -56,15 +54,13 @@ rule8 = ctrl.Rule(takipMesafesi['uzak'] & aracinHizi['normal'], frenSiddeti['yok
 rule9 = ctrl.Rule(takipMesafesi['uzak'] & aracinHizi['yavas'], frenSiddeti['yok'])
 
 
-
-
 # Kontrol sistemini oluşturmak için bütün kuralları girdik
 frenlemeSistemi = ctrl.ControlSystem([rule1, rule2, rule3, rule4, rule5, rule6, rule7, rule8, rule9])
 frenSimulasyonu = ctrl.ControlSystemSimulation(frenlemeSistemi)
 
 #girdilerin alındığı yer
-print("\n--Otonom Frenleme Başladı--")
-print("Çıkmak için 'q' harfine basabilirsiniz.\n")
+print("\n-Otonom Frenleme Başladı-")
+print("Çıkmak için 'q' tuşuna basabilirsiniz.\n")
 
 while True:
     hizGirdisi = input("Aracınızın hızını girin (0-180 km/s): ")
