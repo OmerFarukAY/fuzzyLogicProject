@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/fuzzyLogic.iml" filepath="$PROJECT_DIR$/.idea/fuzzyLogic.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/fuzzyLogicOdev.iml" filepath="$PROJECT_DIR$/.idea/fuzzyLogicOdev.iml" />
+>>>>>>> 01992f7a14335d27b6d7a5e8846c3ff377b3ee3e
     </modules>
   </component>
 </project>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
+<<<<<<< HEAD
     <option name="sdkName" value="Python 3.13 (fuzzyLogic) (2)" />
+=======
+    <option name="sdkName" value="Python 3.13 (fuzzyLogicOdev)" />
+>>>>>>> 01992f7a14335d27b6d7a5e8846c3ff377b3ee3e
   </component>
 </project>
