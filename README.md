@@ -55,3 +55,6 @@ Here are the fuzzy set representations for our system's inputs and outputs:
    ```bash
    python otonomFrenleme.py
    
+---
+
+Author: Ömer Faruk AY
