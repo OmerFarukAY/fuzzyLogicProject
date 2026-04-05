@@ -24,8 +24,10 @@ Here are the fuzzy set representations for our system's inputs and outputs:
 
 ### 1. Speed (Hız) Input
 <img width="640" height="480" alt="speed" src="https://github.com/user-attachments/assets/43eb1b1d-62d8-45ab-b1b2-0fccdb306e73" />
+
 ### 2. Distance (Mesafe) Input
 <img width="640" height="480" alt="distance" src="https://github.com/user-attachments/assets/67e9a975-d967-4d93-b990-9f09ff70c551" />
+
 ### 3. Brake Pressure (Fren Basıncı) Output
 <img width="640" height="480" alt="brake" src="https://github.com/user-attachments/assets/926cc23d-facd-427b-92e6-d3a1a9cdad01" />
 
