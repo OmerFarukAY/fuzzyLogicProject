@@ -23,13 +23,14 @@ This project was developed to model human-like decision-making processes in auto
 Here are the fuzzy set representations for our system's inputs and outputs:
 
 ### 1. Speed (Hız) Input
-<img width="640" height="480" alt="speed" src="https://github.com/user-attachments/assets/43eb1b1d-62d8-45ab-b1b2-0fccdb306e73" />
+<img width="640" height="480" alt="hiz" src="https://github.com/user-attachments/assets/8a5e75d2-5e29-4f57-9123-c017d557ba6b" />
+
 
 ### 2. Distance (Mesafe) Input
-<img width="640" height="480" alt="distance" src="https://github.com/user-attachments/assets/67e9a975-d967-4d93-b990-9f09ff70c551" />
+<img width="640" height="480" alt="mesafe" src="https://github.com/user-attachments/assets/6d9c0fa3-1f89-40be-a352-e4595527e83a" />
 
 ### 3. Brake Pressure (Fren Basıncı) Output
-<img width="640" height="480" alt="brake" src="https://github.com/user-attachments/assets/926cc23d-facd-427b-92e6-d3a1a9cdad01" />
+<img width="640" height="480" alt="fren" src="https://github.com/user-attachments/assets/2eee9542-9f9c-4635-8307-38bca4294558" />
 
 ---
 
